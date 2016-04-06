@@ -22,3 +22,31 @@ erl_crash.dump
 # secrets file as long as you replace its contents by environment
 # variables.
 /config/prod.secret.exs
+
+## Elm ###
+# elm-package generated files
+elm-stuff/
+# elm-repl generated files
+repl-temp-*
+
+
+### Elixir ###
+/_build
+/cover
+/deps
+erl_crash.dump
+*.ez
+
+
+### Phoenix ###
+# Phoenix: a web framework for Elixir
+_build/
+/db
+/deps
+/*.ez
+node_modules/
+erl_crash.dump
+/priv/static/
+/config/prod.secret.exs
+/rel
+
