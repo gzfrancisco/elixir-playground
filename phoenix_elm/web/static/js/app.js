@@ -20,5 +20,6 @@ import "deps/phoenix_html/web/static/js/phoenix_html"
 
 // import socket from "./socket"
 
-var elmDiv = document.getElementById('elm-main');
-var elmApp = Elm.embed(Elm.SeatSaver, elmDiv);
+var elmDiv = document.getElementById('elmContainer');
+var elmModule = elmDiv.dataset.elmModule;
+var elmApp = Elm.embed(eval(elmModule), elmDiv);
