@@ -43,7 +43,7 @@ exports.config = {
       "deps/phoenix_html/web/static",
       "web/static",
       "test/static",
-      "web/elm/SeatSaver.elm"
+      "web/elm"
     ],
 
     // Where to compile files to
@@ -58,7 +58,7 @@ exports.config = {
     },
     elmBrunch: {
       elmFolder: 'web/elm',
-      mainModules: ['SeatSaver.elm'],
+      mainModules: ['My.elm', 'SeatSaver.elm'],
       outputFolder: '../static/vendor'
     }
   },
